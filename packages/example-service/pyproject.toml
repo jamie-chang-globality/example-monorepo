@@ -1,0 +1,11 @@
+[project]
+name = "example-service"
+version = "1.2.0"
+description = "Example service"
+keywords = ["service"]
+dependencies = ["example-logging"]
+requires-python = ">= 3.11"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

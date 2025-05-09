@@ -1,0 +1,11 @@
+[project]
+name = "example-logging"
+version = "1.2.1"
+description = "Example logging setup"
+keywords = ["logging"]
+dependencies = ["python-json-logger"]
+requires-python = ">= 3.11"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
